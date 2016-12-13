@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity /* implements Something1, So
             @Override
             public void onClick(View v) {
 
+
+
             }
         });
 

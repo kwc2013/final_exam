@@ -16,6 +16,9 @@ public class MyBaseAdapter extends BaseAdapter implements AdapterView.OnItemClic
     ArrayList<Employee> mData = null;
     LayoutInflater mLayoutInflater = null;
     public int selected_position;
+    private int position;
+    private View convertView;
+    private ViewGroup parent;
 
     MyBaseAdapter(  Context context, ArrayList<Employee> data){
         mContext = context;
@@ -64,8 +67,12 @@ public class MyBaseAdapter extends BaseAdapter implements AdapterView.OnItemClic
         notifyDataSetChanged();
     }
 
+
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // need something here
+
+        return null;
+
     }
 }
